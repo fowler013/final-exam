@@ -1,0 +1,96 @@
+body {
+    background-color: gray;
+	background-image: url("http://www.boleyncinemas.com/static/images/boleyncinemas_background.jpg");
+	/* background-size: cover;
+	background-repeat: no-repeat;
+	height: 2000px;  
+	 width: 1000px; */
+}
+
+.deleteContainer{
+	background-color: gray;
+    /* background-image: url("https://i.pinimg.com/236x/c3/75/cb/c375cbe604fd041e514b664deef72a2f--vampire-weekend-lyrics-music-bands.jpg"); */
+}
+
+.singleImg{
+	height: 30rem;
+}
+
+.formNav{
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkP14Dw_5i3f5_q1KEQmE5MA4aPjA9Y03Eb0fZ9jHCevJWkzUi")
+}
+
+.formAuthor{
+    
+    color: rgb(6, 22, 39);
+}
+
+.formTitle{
+   
+    color: rgb(8, 30, 54);
+}
+
+.cardFont{
+    font-family: 'Inconsolata', monospace;
+}
+
+.formContent{
+    color: rgb(3, 19, 36);
+}  
+
+.formContainer{
+	width: 20rem;
+}
+
+
+.scrolltop {
+	display:none;
+	width:100%;
+	margin:0 auto;
+	position:fixed;
+	bottom:20px;
+	right:10px;	
+}
+.scroll {
+	position:absolute;
+	right:20px;
+	bottom:20px;
+	background:#b2b2b2;
+	background:rgba(178,178,178,0.7);
+	padding:20px;
+	text-align: center;
+	margin: 0 0 0 0;
+	cursor:pointer;
+	transition: 0.5s;
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s; 		
+}
+.scroll:hover {
+	background:rgba(178,178,178,1.0);
+	transition: 0.5s;
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s; 		
+}
+.scroll:hover .fa {
+	padding-top:-10px;
+}
+.scroll .fa {
+	font-size:30px;
+	margin-top:-5px;
+	margin-left:1px;
+	transition: 0.5s;
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s; 	
+}
+
+.blogContainer{
+	height: 1000px; 
+	overflow-y: scroll;
+}
+
+.divContainer{
+padding-bottom: 16em;
+}
