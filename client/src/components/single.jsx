@@ -101,9 +101,17 @@ class Single extends React.Component {
                         
                     </div>
                 </div>
-<button type="button" className="btn btn-dark btn-lg  cardFont" onClick={() => { this.deleteMovie(); }}>DELETE</button>
 
-               
+
+                <div className="container" style = {{ width:" 150px" }}>
+                    <div key={this.state.movie.id} className="card m-1 deleteContainer">
+                        <div className="card-body text-left">
+
+                        </div>
+                        <button type="button" className="btn btn-dark btn-lg cardFont" onClick={() => { this.deleteMovie(); }}>DELETE</button>
+
+                    </div >
+                </div>
                 
                 
             </div>
